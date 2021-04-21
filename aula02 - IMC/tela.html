@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>IMC</title>
+		<!-- link para acessar o arquivo css -->
+		<link href="estilos.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<main>
+			<div class="container"><!-- container agrupando titulo, três inputs, botão, div que exisbirá resultado -->
+				<div class="titulo">Cálculo do IMC</div>
+				<div class="input">
+					<label>Nome:</label>
+					<input type="text" name="txtNome" id="nome">
+				</div>
+				<div class="input">
+					<label>Altura:</label>
+					<input type="number" name="txtAltura" id="altura">
+				</div>
+				<div class="input">
+					<label>Peso:</label>
+					<input type="number" name="txtPeso" id="peso">
+				</div>
+					<button id="calcular">Calcular</button>
+				<div class="resultado" id="valor"></div>
+			</div><!-- fechando div container -->
+		</main>
+		<script src="imc.js"> </script>
+	</body>
+</html>
